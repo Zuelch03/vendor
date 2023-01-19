@@ -161,7 +161,7 @@ let ContactList = () => {
                               <li className="list-group-item list-group-item-action">
                                 Email :{' '}
                                 <span className="fw-bold">
-                                  jerickt@amazon.com
+                                  {contact.email}
                                 </span>
                               </li>
                               <li className="list-group-item list-group-item-action">

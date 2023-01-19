@@ -4,25 +4,13 @@
       "id": "AA123",
       "site": "LGB6",
       "site_manager": "Jerick",
-      "photo": "https://gulfbeachweddings.com/wp-content/uploads/2018/03/amazon-logo-1.png",
+      "photo": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://divisionsmg.com/wp-content/uploads/2022/11/cropped-dmg-blue-site-logo.png",
       "phone": "9099990000",
       "email": "jerickt@amazon.com",
       "vendor": "Sweetwater",
       "groupId": "1",
       "vendor_phone": "8888888888",
       "vendor_email": "name@sweetwater.com"
-    },
-    {
-      "site": "LGB6",
-      "site_manager": "Jerick",
-      "photo": "https://patch.com/img/cdn20/users/22843174/20170216/120414/styles/raw/public/article_images/cw_services_logo-1487264598-1313.jpg",
-      "phone": "909-999-9999",
-      "email": "jerickt@amazon.com",
-      "vendor": "Orange Coast",
-      "groupId": "2",
-      "vendor_phone": "888-888-8888",
-      "vendor_email": "orange@orange.com",
-      "id": "zwMip-7"
     },
     {
       "site": "LGB6",
@@ -35,6 +23,78 @@
       "vendor_phone": "888-888-8888",
       "vendor_email": "customer@acs.com",
       "id": "FVYb8oG"
+    },
+    {
+      "site": "LAX9",
+      "site_manager": "Scott",
+      "photo": "https://d9hhrg4mnvzow.cloudfront.net/nexgenairandplumbing.com/plumbing-repair/7ae5009b-nxg-logo-heating-air-pumbing-horizontal_10hg04k000000000000028.png",
+      "phone": "909-999-9999",
+      "email": "scott@amazon.com",
+      "vendor": "NextGen",
+      "groupId": "3",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "gen@nextgen.com",
+      "id": "SFUFp6U"
+    },
+    {
+      "site": "OWD9",
+      "site_manager": "Mike Obiren",
+      "photo": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://divisionsmg.com/wp-content/uploads/2022/11/cropped-dmg-blue-site-logo.png",
+      "phone": "413-557-4775",
+      "email": "oobrienm@amazon.com",
+      "vendor": "Divisions",
+      "groupId": "2",
+      "vendor_phone": "899-999-0000",
+      "vendor_email": "Hey@divisions.com",
+      "id": "QSwrFX2"
+    },
+    {
+      "site": "LGB8",
+      "site_manager": "Mike",
+      "photo": "https://www.sweetwaterplumbing24-7.com/assets/templates/main/images/logo.png",
+      "phone": "951-999-9999",
+      "email": "mike@amazon.com",
+      "vendor": "Sweet water plumbing",
+      "groupId": "1",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "john@sweetwater.com",
+      "id": "HTapXwf"
+    },
+    {
+      "site": "SNA4",
+      "site_manager": "Roberto",
+      "photo": "https://www.sweetwaterplumbing24-7.com/assets/templates/main/images/logo.png",
+      "phone": "909-999-9999",
+      "email": "robert@amazon.com",
+      "vendor": "Sweet water plumbing",
+      "groupId": "1",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "john@sweetwater.com",
+      "id": "6MFYlvT"
+    },
+    {
+      "site": "JFK8",
+      "site_manager": "Bill",
+      "photo": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/300452688_490387089758680_8056572577884391787_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oKlemoes5RMAX_QHB53&_nc_ht=scontent-sjc3-1.xx&oh=00_AfCLX1H4c4ixuxJZ5xQOiZM_IGcfsgjMXlB3-tIw4OAnrQ&oe=63CED870",
+      "phone": "999-999-9999",
+      "email": "bill@amazon.com",
+      "vendor": "Orange Coast Electric",
+      "groupId": "2",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "orange@orange.com",
+      "id": "aJE1a3G"
+    },
+    {
+      "site": "LGB8",
+      "site_manager": "Mike Medina",
+      "photo": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/300452688_490387089758680_8056572577884391787_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oKlemoes5RMAX_QHB53&_nc_ht=scontent-sjc3-1.xx&oh=00_AfCLX1H4c4ixuxJZ5xQOiZM_IGcfsgjMXlB3-tIw4OAnrQ&oe=63CED870",
+      "phone": "909-999-9999",
+      "email": "mike@amazon.com",
+      "vendor": "Orange Coast Electric",
+      "groupId": "2",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "orange@orange.com",
+      "id": "MAwYrOh"
     }
   ],
   "groups": [
@@ -53,6 +113,10 @@
     {
       "id": "4",
       "name": "Dock Doors"
+    },
+    {
+      "id": "5",
+      "name": "Projects"
     }
   ]
 }
