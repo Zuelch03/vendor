@@ -1,0 +1,58 @@
+{
+  "contacts": [
+    {
+      "id": "AA123",
+      "site": "LGB6",
+      "site_manager": "Jerick",
+      "photo": "https://gulfbeachweddings.com/wp-content/uploads/2018/03/amazon-logo-1.png",
+      "phone": "9099990000",
+      "email": "jerickt@amazon.com",
+      "vendor": "Sweetwater",
+      "groupId": "1",
+      "vendor_phone": "8888888888",
+      "vendor_email": "name@sweetwater.com"
+    },
+    {
+      "site": "LGB6",
+      "site_manager": "Jerick",
+      "photo": "https://patch.com/img/cdn20/users/22843174/20170216/120414/styles/raw/public/article_images/cw_services_logo-1487264598-1313.jpg",
+      "phone": "909-999-9999",
+      "email": "jerickt@amazon.com",
+      "vendor": "Orange Coast",
+      "groupId": "2",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "orange@orange.com",
+      "id": "zwMip-7"
+    },
+    {
+      "site": "LGB6",
+      "site_manager": "Jerick",
+      "photo": "http://aircontrolsystems.net/wp-content/uploads/2017/11/ACSlogo_Horizontal_RGB-copy.png",
+      "phone": "909-999-9999",
+      "email": "jerickt@amazon.com",
+      "vendor": "Air Control Services",
+      "groupId": "3",
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "customer@acs.com",
+      "id": "FVYb8oG"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Plumbing"
+    },
+    {
+      "id": "2",
+      "name": "Electrical"
+    },
+    {
+      "id": "3",
+      "name": "HVAC"
+    },
+    {
+      "id": "4",
+      "name": "Dock Doors"
+    }
+  ]
+}
