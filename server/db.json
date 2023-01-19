@@ -25,28 +25,16 @@
       "id": "zwMip-7"
     },
     {
-      "site": "LGB8",
-      "site_manager": "aaa",
-      "photo": "https://patch.com/img/cdn20/users/22843174/20170216/120414/styles/raw/public/article_images/cw_services_logo-1487264598-1313.jpg",
-      "phone": "19092751445",
-      "email": "gregzuelch316@gmail.com",
-      "vendor": "Orange Coast",
-      "groupId": "2",
-      "vendor_phone": "19092751445",
-      "vendor_email": "gregzuelch316@gmail.com",
-      "id": "kFJzCtS"
-    },
-    {
-      "site": "lax9",
+      "site": "LGB6",
       "site_manager": "Jerick",
       "photo": "http://aircontrolsystems.net/wp-content/uploads/2017/11/ACSlogo_Horizontal_RGB-copy.png",
-      "phone": "19092751445",
-      "email": "gregzuelch316@gmail.com",
-      "vendor": "Orange Coast",
+      "phone": "909-999-9999",
+      "email": "jerickt@amazon.com",
+      "vendor": "Air Control Services",
       "groupId": "3",
-      "vendor_phone": "19092751445",
-      "vendor_email": "gregzuelch316@gmail.com",
-      "id": "LSjDNDl"
+      "vendor_phone": "888-888-8888",
+      "vendor_email": "customer@acs.com",
+      "id": "FVYb8oG"
     }
   ],
   "groups": [

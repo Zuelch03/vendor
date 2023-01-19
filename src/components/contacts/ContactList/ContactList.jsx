@@ -4,14 +4,9 @@ import { ContactService } from '../../../services/ContactService'
 import Spinner from '../../Spinner/Spinner'
 
 let ContactList = () => {
-  let [query, setQuery] = useState({
-    text: '',
-  })
-
   let [state, setState] = useState({
     loading: false,
     contacts: [],
-    filteredContacts: [],
     errorMessage: '',
   })
 
@@ -24,7 +19,6 @@ let ContactList = () => {
           ...state,
           loading: false,
           contacts: response.data,
-          filteredContacts: response.data,
         })
       } catch (error) {
         setState({
@@ -37,45 +31,7 @@ let ContactList = () => {
     handleResp()
   }, [])
 
-  // delete contact
-  let clickDelete = async (contactId) => {
-    try {
-      let response = await ContactService.deleteContact(contactId)
-      if (response) {
-        setState({ ...state, loading: true })
-        let response = await ContactService.getAllContacts()
-        setState({
-          ...state,
-          loading: false,
-          contacts: response.data,
-          filteredContacts: response.data,
-        })
-      }
-    } catch (error) {
-      setState({
-        ...state,
-        loading: false,
-        errorMessage: error.message,
-      })
-    }
-  }
-
-  //search sites
-
-  let searchContacts = (event) => {
-    setQuery({ ...query, text: event.target.value })
-    let theContacts = state.contacts.filter((contact) => {
-      return contact.site
-        .toLowerCase()
-        .includes(event.target.value.toLowerCase())
-    })
-    setState({
-      ...state,
-      filteredContacts: theContacts,
-    })
-  }
-
-  let { loading, contacts, filteredContacts, errorMessage } = state
+  let { loading, contacts, errorMessage } = state
 
   return (
     <React.Fragment>
@@ -91,9 +47,10 @@ let ContactList = () => {
                   </Link>
                 </p>
                 <p className="fst-italic">
-                  Welcome to CW services Amazon account vendor management app.
-                  Below simply type Site code in "Search site" box, to find list
-                  of vendors for that site.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  laudantium iste beatae ratione mollitia sed dolores explicabo,
+                  dolorum aperiam molestiae, saepe eveniet eaque! Consequatur
+                  eveniet quibusdam perspiciatis commodi at in.
                 </p>
               </div>
             </div>
@@ -104,9 +61,7 @@ let ContactList = () => {
                     {' '}
                     <div className="mb-2">
                       <input
-                        name="text"
-                        value={query.text}
-                        onChange={searchContacts}
+                        type="text"
                         className="form-control"
                         placeholder="Search Site"
                       />
@@ -132,8 +87,8 @@ let ContactList = () => {
       <section className="contact-list">
         <div className="container">
           <div className="row">
-            {filteredContacts.length > 0 &&
-              filteredContacts.map((contact) => {
+            {contacts.length > 0 &&
+              contacts.map((contact) => {
                 return (
                   <div className="col-md-6" key={contact.id}>
                     <div className="card my-2">
@@ -185,10 +140,7 @@ let ContactList = () => {
                             >
                               <i className="fa fa-pen" />
                             </Link>
-                            <button
-                              className="btn btn-danger my-1"
-                              onClick={() => clickDelete(contact.id)}
-                            >
+                            <button className="btn btn-danger my-1">
                               <i className="fa fa-trash" />
                             </button>
                           </div>
