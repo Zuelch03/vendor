@@ -20,11 +20,13 @@ let ContactList = () => {
       try {
         setState({ ...state, loading: true })
         let response = await ContactService.getAllContacts()
+        let groupResponse = await ContactService.getGroups()
         setState({
           ...state,
           loading: false,
           contacts: response.data,
           filteredContacts: response.data,
+          groups: groupResponse.data,
         })
       } catch (error) {
         setState({
@@ -75,7 +77,7 @@ let ContactList = () => {
     })
   }
 
-  let { loading, contacts, filteredContacts, errorMessage } = state
+  let { loading, contacts, filteredContacts, errorMessage, groups } = state
 
   return (
     <React.Fragment>
@@ -160,15 +162,23 @@ let ContactList = () => {
                               </li>
                               <li className="list-group-item list-group-item-action">
                                 Email :{' '}
-                                <span className="fw-bold">
-                                  {contact.email}
-                                </span>
+                                <span className="fw-bold">{contact.email}</span>
                               </li>
                               <li className="list-group-item list-group-item-action">
-                                Category :{' '}
-                                <span className="fw-bold">
-                                  {contact.groupId}
-                                </span>
+                                <select
+                                  name="groupId"
+                                  value={contact.groupId}
+                                  className="form-control"
+                                >
+                                  {groups.length > 0 &&
+                                    groups.map((group) => {
+                                      return (
+                                        <option key={group.Id} value={group.id}>
+                                          {group.name}
+                                        </option>
+                                      )
+                                    })}
+                                </select>
                               </li>
                             </ul>
                           </div>
