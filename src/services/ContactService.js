@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export class ContactService {
-  static serverURL = `http://localhost:5000`
+  static serverURL = `http://165.232.132.81/api`
 
   static getGroups() {
     let dataURL = `${this.serverURL}/groups`
