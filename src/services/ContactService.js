@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export class ContactService {
-  static serverURL = `https://chimpdux.com./api`
+  static serverURL = `http://chimpdux.com./api`
 
   static getGroups() {
     let dataURL = `${this.serverURL}/groups`
