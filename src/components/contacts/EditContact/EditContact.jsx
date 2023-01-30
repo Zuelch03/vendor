@@ -86,12 +86,9 @@ let EditContact = () => {
               <div className="row">
                 <div className="col">
                   <p className="h3 text-primary fw-bold">Edit Contact</p>
-                  <p className="fst-italic">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iste dolores praesentium optio, voluptates consectetur sed
-                    quas non distinctio ullam nobis deleniti nihil, delectus
-                    numquam laudantium magni officiis temporibus velit.
-                    Repellendus!
+                  <p className="fst-italic p-3">
+                    If you would like to edit/update information below as
+                    needed.
                   </p>
                 </div>
               </div>

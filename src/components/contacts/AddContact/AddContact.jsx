@@ -70,10 +70,10 @@ let AddContact = () => {
             <div className="col">
               <p className="h3 text-success fw-bold">Create Contact</p>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                dolores praesentium optio, voluptates consectetur sed quas non
-                distinctio ullam nobis deleniti nihil, delectus numquam
-                laudantium magni officiis temporibus velit. Repellendus!
+                Below please fill out all required information. Site code, Site
+                Manager, Photo URL of vendor logo, Site Manager phone number,
+                Site Manager email, Vendor Company name, Vendor's expertise,
+                Vendor's phone and email address.
               </p>
             </div>
           </div>
