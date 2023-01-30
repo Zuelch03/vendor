@@ -46,10 +46,8 @@ let ViewContact = () => {
             <div className="col">
               <p className="h3 text-warning">View Contact</p>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                dolores praesentium optio, voluptates consectetur sed quas non
-                distinctio ullam nobis deleniti nihil, delectus numquam
-                laudantium magni officiis temporibus velit. Repellendus!
+                Below is information on the site selected. Push back to return
+                to main page.
               </p>
             </div>
           </div>
@@ -101,7 +99,7 @@ let ViewContact = () => {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col">
+                  <div className="col mt-4 p-4">
                     <Link to={'/contacts/list'} className="btn btn-warning">
                       Back
                     </Link>
