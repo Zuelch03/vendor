@@ -182,25 +182,30 @@ let ContactList = () => {
                               </li>
                             </ul>
                           </div>
+
                           <div className="col-md-1 d-flex flex-column align-items-center">
-                            <Link
-                              to={`/contacts/view/${contact.id}`}
-                              className="btn btn-warning my-1"
-                            >
-                              <i className="fa fa-eye" />
-                            </Link>
-                            <Link
-                              to={`/contacts/edit/${contact.id}`}
-                              className="btn btn-primary my-1"
-                            >
-                              <i className="fa fa-pen" />
-                            </Link>
-                            <button
-                              className="btn btn-danger my-1"
-                              onClick={() => clickDelete(contact.id)}
-                            >
-                              <i className="fa fa-trash" />
-                            </button>
+                            <div className="media p-3 mt-3">
+                              <div className="media">
+                                <Link
+                                  to={`/contacts/view/${contact.id}`}
+                                  className="btn btn-warning my-1"
+                                >
+                                  <i className="fa fa-eye" />
+                                </Link>
+                                <Link
+                                  to={`/contacts/edit/${contact.id}`}
+                                  className="btn btn-primary my-1"
+                                >
+                                  <i className="fa fa-pen" />
+                                </Link>
+                                <button
+                                  className="btn btn-danger my-1"
+                                  onClick={() => clickDelete(contact.id)}
+                                >
+                                  <i className="fa fa-trash" />
+                                </button>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
